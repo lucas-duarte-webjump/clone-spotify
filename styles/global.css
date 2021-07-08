@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --green-400: #1ed760;
+  --green-500: #1db954;
+  --black: #000000;
+  --black-button-social: #222326;
+  --grey: #919496;
+  --background: #4059ad;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
