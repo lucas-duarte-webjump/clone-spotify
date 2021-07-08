@@ -12,6 +12,19 @@ footer > div {
   padding: 1.2rem 0;
 }
 
+@media screen and (max-width: 1150px) {
+  header > div,
+main > div,
+footer > div {
+  width: 800px;
+  margin: 0 auto;
+  padding: 1.2rem 0;
+}
+
+
+}
+
+
 header,
 footer {
   background: var(--black);
@@ -69,7 +82,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4rem;
+  flex: 1;
   height: calc(100vh - 9.7rem);
 }
 
