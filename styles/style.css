@@ -79,7 +79,7 @@ a:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  filter: brightness(0) invert(1);
+  filter: brightness(0);
   animation: cycle 8s ease infinite;
 
   font-weight: 900;
@@ -116,7 +116,7 @@ a:hover {
 @keyframes cycle {
   0%,
   100% {
-    filter: brightness(0) invert(1);
+    filter: brightness(0);
   }
   35%,
   65% {
